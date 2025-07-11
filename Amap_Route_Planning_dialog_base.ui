@@ -1,0 +1,173 @@
+<ui version="4.0">
+ <class>AmapRoutePlanningDialogBase</class>
+ <widget class="QDialog" name="AmapRoutePlanningDialogBase">
+  <property name="windowTitle">
+   <string>Amap Route Planning</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_key">
+     <property name="text">
+      <string>高德Key:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineEdit_key"/>
+   </item>
+
+   <item>
+      <widget class="QPushButton" name="btn_refresh">
+       <property name="text">
+        <string>刷新图层</string>
+       </property>
+      </widget>
+     </item>
+
+   <item>
+      <widget class="QLabel" name="label_origin_layer">
+       <property name="text">
+        <string>起点图层:</string>
+       </property>
+      </widget>
+   </item>
+   <item>
+      <widget class="QComboBox" name="comboBox_origin_layer"/>
+   </item>
+
+
+   <item>
+    <widget class="QLabel" name="label_origin_field">
+     <property name="text">
+      <string>起点字段:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox_origin_field"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_dest_layer">
+     <property name="text">
+      <string>终点图层:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox_dest_layer"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_dest_field">
+     <property name="text">
+      <string>终点字段:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox_dest_field"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_mode">
+     <property name="text">
+      <string>出行方式:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox_mode">
+     <item><property name="text"><string>驾车</string></property></item>
+     <item><property name="text"><string>步行</string></property></item>
+     <item><property name="text"><string>骑行</string></property></item>
+     <item><property name="text"><string>公交</string></property></item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_city">
+     <property name="text">
+      <string>城市(adcode/名称):</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineEdit_city"/>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBox_export_layer">
+     <property name="text">
+      <string>导出路径图层（LineString）</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_output">
+     <item>
+      <widget class="QLabel" name="label_output">
+       <property name="text">
+        <string>导出结果路径（CSV）:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_output_path"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_browse">
+       <property name="text">
+        <string>浏览...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QProgressBar" name="progressBar_status">
+     <property name="minimum">
+      <number>0</number>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+     <property name="format">
+      <string>运行进度：%p%</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="textEdit_log">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>运行日志将在此显示...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_buttons">
+     <item>
+      <widget class="QPushButton" name="btn_run">
+       <property name="text">
+        <string>开始运行</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_stop">
+       <property name="text">
+        <string>停止运行</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

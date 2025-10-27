@@ -6,9 +6,9 @@
 name=Amap Route Planning
 qgisMinimumVersion=3.0
 description=调用高德地图API进行路径规划的QGIS插件，支持驾车、步行、骑行和公交四种出行方式
-version=1.0
+version=0.1
 author=MaritimeDay
-email=Connor_rk800A@163.com
+email=Connor_RK800@163.com
 about=调用高德地图API计算四种出行方式下的最短路径及用时，支持批量OD分析，结果导出为CSV，路径可视化
 tracker=http://bugs
 repository=http://repo
@@ -17,8 +17,8 @@ repository=http://repo
 # Recommended items:
 
 hasProcessingProvider=no
-changelog=
-= Initial release
+# Uncomment the following line and add your changelog:
+# changelog=
 
 # Tags are comma separated with spaces allowed
 tags=python, routing, amap, path planning, OD analysis
@@ -37,8 +37,8 @@ deprecated=False
 # Check the documentation for more information.
 # plugin_dependencies=
 
-# Category of the plugin: Raster, Vector, Database or Web
-category=Vector
+Category of the plugin: Raster, Vector, Database or Web
+# category=
 
 # If the plugin can run on QGIS Server.
 server=False

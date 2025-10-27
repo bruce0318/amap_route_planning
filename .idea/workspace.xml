@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b42ec2ba-eb3a-47c9-b1d7-180d6dd9f1fd" name="更改" comment="" />
+    <list default="true" id="b42ec2ba-eb3a-47c9-b1d7-180d6dd9f1fd" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amap_Route_Planning_dialog_base.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Amap_Route_Planning_dialog_base.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metadata.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metadata.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -22,13 +29,15 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/WHU/data/GIS/Plugins/amap_route_planning&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -50,7 +59,10 @@
       <workItem from="1752046792358" duration="3478000" />
       <workItem from="1752050322245" duration="138000" />
       <workItem from="1752109956041" duration="1298000" />
-      <workItem from="1752201548982" duration="2176000" />
+      <workItem from="1752201548982" duration="3393000" />
+      <workItem from="1752302344639" duration="909000" />
+      <workItem from="1752307901745" duration="9792000" />
+      <workItem from="1752378635138" duration="459000" />
     </task>
     <servers />
   </component>

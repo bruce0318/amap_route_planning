@@ -22,7 +22,7 @@
         <string>刷新图层</string>
        </property>
       </widget>
-     </item>
+   </item>
 
    <item>
       <widget class="QLabel" name="label_origin_layer">

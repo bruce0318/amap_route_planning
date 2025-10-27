@@ -3,6 +3,8 @@
 ## 简介
 （此为本人大三课程设计作业，QGIS 3.40.8可用，其他版本未进行测试）
 Amap Route Planning是一个QGIS插件，它利用高德地图API进行路径规划。该插件支持驾车、步行、骑行和公交四种出行方式，可以进行批量OD分析，并能导出CSV文件和绘制路径图层。
+插件界面：
+<img width="371" height="803" alt="image" src="https://github.com/user-attachments/assets/c8424d17-3920-40b1-b6d8-a7067b166850" />
 
 ## 功能特性
 - 支持驾车、步行、骑行和公交四种出行方式的路径规划
